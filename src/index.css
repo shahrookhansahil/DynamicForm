@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 1px solid black !important;
+} */
+html {
+  scroll-behavior: smooth;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.scroll-bar > div:first-child {
+  overflow-x: hidden !important;
+}
+.scroll-bar > div:first-child::-webkit-scrollbar {
+  background: transparent;
+  scrollbar-width: 5px;
+}
+
+.zIndexHigh {
+  z-index: 9999999;
+}
+
+.italicized {
+  font-style: italic;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.custom-header-pre .p-column-title,
+.custom-header-pre .p-column-title .p-column-title-text {
+  text-align: center;
+}
+
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.menu-primary-exit {
+  position: absolute;
+}
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all 500ms ease;
+}
+
+.menu-secondary-enter {
+  transform: translateX(110%);
+}
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.menu-secondary-exit {
+  position: absolute;
+}
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all 500ms ease;
+}
+
+.tools-list {
+  width: 100%;
+  padding: 15px 10px;
+  display: block;
+}
+
+.svg-style {
+  margin: 5px 0px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box > * {
+  flex: 1 1 160px;
+}
+
+.edgebutton {
+  width: 20px;
+  height: 20px;
+  background: #eee;
+  border: 1px solid #c6c2c2;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.edgebutton:hover {
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08);
+}
+
+.edgebutton-foreignobject body {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+}
+
+.sidebarBox {
+  display: inline;
+}
+
+.sidebarul {
+  margin: 0 auto;
+}
+
+.comboBoxOption {
+  padding: 2px;
+}
+
+.circle-port {
+  cursor: pointer;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  position: absolute;
+  top: 14px;
+}
+
+.circle-port-left {
+  left: -58px;
+}
+
+.circle-port-right {
+  right: -18px;
+}
+
+.ant-row .ant-form-item {
+  margin: 0px !important;
+}
+
+.ant-form-inline .ant-form-item {
+  margin: 0px;
+}
+
+.inv-handle {
+  visibility: hidden;
+}
+
+.react-flow__handle {
+  visibility: hidden;
+}
+
+.shape-node:hover .react-flow__handle {
+  visibility: visible;
+  top: -10 !important;
+  bottom: -10 !important;
+  left: -10 !important;
+  right: -10 !important;
+  width: 2px;
+  height: 2px;
+}
+
+.react-flow__edge:hover,
+.react-flow__edge-customEdge:hover,
+.nopan:hover .inv-handle {
+  visibility: visible;
+}
+
+.acButtonStyle {
+  height: max-content;
+}
+
+/* Testimonial Carousel */
+.carousel .control-prev.control-arrow:before,
+.carousel .control-next.control-arrow:before {
+  border: 0px solid black !important;
+  background: url("./icons/Left.svg") no-repeat;
+  background-size: contain;
+  @apply w-14 h-14 lg:w-28 lg:h-28;
+}
+
+.carousel .control-next.control-arrow:before {
+  background: url("./icons/Right.svg") no-repeat;
+  background-size: contain;
+}
+
+.control-arrow.control-prev:hover,
+.control-arrow.control-next:hover {
+  background-color: inherit !important;
+}
+
+/* React-Grid-Layout */
+.react-grid-item,
+.react-grid-placeholder,
+.react-grid-layout.layout {
+  transition: none !important;
+}
+
+/* Histogram Chart */
+.number-of-bins {
+  -moz-appearance: textfield; /* Firefox */
+  -webkit-appearance: none; /* Chrome, Safari, Edge, Opera */
+  appearance: none; /* Standard */
+}
+.number-of-bins::-webkit-outer-spin-button,
+.number-of-bins::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

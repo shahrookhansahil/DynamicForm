@@ -1,0 +1,493 @@
+{
+	"schema": [
+		{
+			"name": "Group",
+			"type": "text",
+			"required": true,
+			"validation": {
+				"minLength": 1,
+				"maxLength": 3
+			},
+			"originalName": "name"
+		},
+		{
+			"name": "date",
+			"type": "date",
+			"placeholder": "",
+			"required": true,
+			"options": []
+		},
+		{
+			"name": "Shift",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Morning", "Evening", "Night"]
+		},
+		{
+			"name": "Location",
+			"type": "text",
+			"placeholder": "",
+			"required": true,
+			"options": []
+		},
+		{
+			"name": "Shower",
+			"type": "number",
+			"placeholder": "",
+			"required": false,
+			"originalName": "Shower No"
+		},
+		{
+			"name": "Leakage",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Yes", "No"]
+		},
+		{
+			"name": "Bulb Ok",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Yes", "No"]
+		},
+		{
+			"name": "Fire Extection Location",
+			"type": "text",
+			"placeholder": "",
+			"required": true,
+			"options": []
+		},
+		{
+			"name": "Presure",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Yes", "No"]
+		},
+		{
+			"name": "Escap Location",
+			"type": "text",
+			"placeholder": "",
+			"required": true,
+			"options": []
+		},
+		{
+			"name": "Preasur ",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Yes", " No"],
+			"originalName": "Preasur Ok"
+		},
+		{
+			"name": "Preasure",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Yes", "No"]
+		},
+		{
+			"name": "Box Ok ",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Yes", " No"],
+			"originalName": "Box"
+		},
+		{
+			"name": "Box  Ok",
+			"type": "select",
+			"placeholder": "",
+			"required": true,
+			"options": ["Yes", "No"]
+		}
+	],
+	"layoutJson": {
+		"lg": [
+			{
+				"w": 6,
+				"h": 2,
+				"x": 0,
+				"y": 0,
+				"i": "Group",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 4,
+				"h": 2,
+				"x": 6,
+				"y": 0,
+				"i": "date",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 6,
+				"h": 2,
+				"x": 10,
+				"y": 0,
+				"i": "Shift",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 3,
+				"h": 2,
+				"x": 0,
+				"y": 2,
+				"i": "Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 2,
+				"i": "Shower",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 4,
+				"y": 2,
+				"i": "Leakage",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 5,
+				"y": 2,
+				"i": "Bulb Ok",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 3,
+				"h": 2,
+				"x": 7,
+				"y": 2,
+				"i": "Fire Extection Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 6,
+				"y": 2,
+				"i": "Presure",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 2,
+				"h": 2,
+				"x": 12,
+				"y": 2,
+				"i": "Escap Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 10,
+				"y": 2,
+				"i": "Preasur ",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 14,
+				"y": 2,
+				"i": "Preasure",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 11,
+				"y": 2,
+				"i": "Box Ok ",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 15,
+				"y": 2,
+				"i": "Box  Ok",
+				"moved": false,
+				"static": false
+			}
+		],
+		"xxs": [
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 0,
+				"i": "Group",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 2,
+				"i": "date",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 4,
+				"i": "Shift",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 6,
+				"i": "Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 8,
+				"i": "Shower",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 10,
+				"i": "Leakage",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 12,
+				"i": "Bulb Ok",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 14,
+				"i": "Fire Extection Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 16,
+				"i": "Presure",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 18,
+				"i": "Escap Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 20,
+				"i": "Preasur ",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 22,
+				"i": "Preasure",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 24,
+				"i": "Box Ok ",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 0,
+				"y": 26,
+				"i": "Box  Ok",
+				"moved": false,
+				"static": false
+			}
+		],
+		"xs": [
+			{
+				"w": 4,
+				"h": 2,
+				"x": 0,
+				"y": 0,
+				"i": "Group",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 4,
+				"h": 2,
+				"x": 0,
+				"y": 2,
+				"i": "date",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 4,
+				"h": 2,
+				"x": 0,
+				"y": 4,
+				"i": "Shift",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 3,
+				"h": 2,
+				"x": 0,
+				"y": 6,
+				"i": "Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 6,
+				"i": "Shower",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 8,
+				"i": "Leakage",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 10,
+				"i": "Bulb Ok",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 3,
+				"h": 2,
+				"x": 1,
+				"y": 12,
+				"i": "Fire Extection Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 14,
+				"i": "Presure",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 2,
+				"h": 2,
+				"x": 2,
+				"y": 16,
+				"i": "Escap Location",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 18,
+				"i": "Preasur ",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 20,
+				"i": "Preasure",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 22,
+				"i": "Box Ok ",
+				"moved": false,
+				"static": false
+			},
+			{
+				"w": 1,
+				"h": 2,
+				"x": 3,
+				"y": 24,
+				"i": "Box  Ok",
+				"moved": false,
+				"static": false
+			}
+		]
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es6",
+    "allowJs": true,
+    "paths": {
+      "@public/*": ["public/*"],
+      "@icons/*": ["public/icons/*"],
+      "@images/*": ["public/images/*"],
+
+      "@src/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@cards/*": ["src/components/cards/*"],
+      "@core/*": ["src/components/core/*"],
+      "@echarts/*": ["src/components/echarts/*"],
+      "@modals/*": ["src/components/modals/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@pages/*": ["src/pages/*"],
+      "@datasets/*": ["src/pages/datasets/*"],
+      "@models/*": ["src/pages/models/*"],
+      "@projects/*": ["src/pages/projects/*"],
+      "@shared/*": ["src/pages/shared/*"],
+      "@system/*": ["src/pages/system/*"],
+      "@drawings/*": ["src/pages/drawings/*"],
+      "@dashboards/*": ["src/pages/dashboards/*"],
+      "@users/*": ["src/pages/users/*"],
+      "@utils/*": ["src/utils/*"],
+      "@artHelper/*": ["src/utils/artHelper/*"],
+      "@iconHelper/*": ["src/utils/iconHelper/*"],
+      "@manual/*": ["src/pages/manual/*"]
+    },
+    "outDir": "dist"
+  }
+}
